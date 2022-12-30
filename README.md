@@ -1,3 +1,3 @@
 # nodejs course
-> first commit
+> first commit \r\n
 > second commit
