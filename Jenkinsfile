@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test'){
             steps{
-                npm run calculator
+                npm calculator
                 echo 'Test done successfully'
             }
         }
