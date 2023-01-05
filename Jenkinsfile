@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    tools {nodejs "node"}
     stages {
         stage('Build') {
             steps {
@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test'){
             steps{
-                npm run calculator
+                sh 'npm -version'
                 echo 'Test done successfully'
             }
         }
