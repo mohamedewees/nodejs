@@ -2,14 +2,22 @@ function printout(what){
     console.log(what);
 }
 
-function calculateor(x,y,operation){
+
+
+
+export function calculator(x,y,operation){
+    // const args = process.argv.slice(2);
+    // var x = Number(args[0]);
+    // var operation = args[1];
+    // var y = Number(args[2]);
+
     if(operation == '+'){
         var z = x + y;
     }
     else if(operation == '-'){
         var z = x - y;
     }
-    else if(operation == '*'){
+    else if(operation == 'x'){
         var z = x * y;
     }
     else if(operation == '/'){
@@ -22,5 +30,9 @@ function calculateor(x,y,operation){
     
 }
 
+// module.exports = calculator;
+// export default calculator;
+
 //printout('Mohamed');
-console.log(calculateor(16,4,'sqrt'));
+// const result = calculator(1,2,'+');
+// console.log(result);
