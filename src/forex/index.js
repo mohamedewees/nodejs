@@ -1,4 +1,5 @@
-var request = require('request');
+// var request = require('request');
+import request from 'request';
 var options = {
   'method': 'GET',
   'url': 'https://api.fastforex.io/fetch-multi?from=USD&to=EGP&api_key=70f4c9704c-d098902118-rogvjq',
